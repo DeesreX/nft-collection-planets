@@ -52,6 +52,7 @@ export default function Home() {
    */
   const publicMint = async () => {
     try {
+      alert("hello?")
       // We need a Signer here since this is a 'write' transaction.
       const signer = await getProviderOrSigner(true);
       // Create a new instance of the Contract with a Signer, which allows
